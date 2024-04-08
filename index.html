@@ -38,6 +38,7 @@
       font-family: BerettaSansTrial-Bold;
       float: left;
       line-height: 1;
+      text-align: center;
       /* transition: margin-left 0.5s; */
     }
 
@@ -45,6 +46,7 @@
       width: 100%;
       overflow-x: auto;
       white-space: nowrap;
+      text-align: center;
     }
 
     .horizontal_text div{
@@ -70,6 +72,9 @@
       width: 100%;
       position: sticky;
       top: 0;
+    }
+     .vertical_text h1 {
+      text-align: left;
     }
 
     .background_media{
@@ -132,7 +137,7 @@
       <img src="Screen Shot 2024-04-01 at 10.11.55 PM.png">
     </div>
     <div class="image">
-      <img src="screenshot003.png">
+      <img src="Screen Shot 2024-04-07 at 6.50.10 PM.png">
     </div>
     <div class="image">
       <img src="screenshot003.png">
@@ -144,7 +149,7 @@
       <img src="screenshot003.png">
     </div>
     <div class="image">
-      <img src="screenshot003.png">
+      <img src="Resume_Xiwen Zhang_2023-24.pdf">
     </div>
   </div>
 
@@ -216,7 +221,7 @@ Pieces in puzzles of this kind come in classes of which the best-known are
     </div>
 
     <div class="background_media">
-        <img src="screenshot006.png">
+        <img src="Screen Shot 2024-02-08 at 9.09.57 AM.png">
         <!-- <video>
           <source src="">
         </video> -->
@@ -240,13 +245,16 @@ Pieces in puzzles of this kind come in classes of which the best-known are
     var highlight_one_text = document.getElementById("highlight_one_text");
     var highlight_one_image = document.getElementById("highlight_one_image");
 
-    highlight_one_image.addEventListener("mouseover", (event) => {
-      highlight_one_text.style.backgroundColor = "yellow";
-    });
+ 
+highlight_one_image.addEventListener("mouseover", (event) => {
+  highlight_one_text.style.backgroundColor = "black";
+  highlight_one_text.style.color = "white";
+});
 
-    highlight_one_image.addEventListener("mouseleave", (event) => {
-      highlight_one_text.style.backgroundColor = "transparent";
-    });
+highlight_one_image.addEventListener("mouseleave", (event) => {
+  highlight_one_text.style.backgroundColor = ""; // Reset background color
+  highlight_one_text.style.color = ""; // Reset text color
+});
   </script>
 </body>
 </html>

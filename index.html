@@ -60,8 +60,13 @@
     .image {
 /*      float: right;*/
       width: 5vw;
-      border-left: 2px dotted black;
-      transition: 0.3s;
+      border-left: 1px dashed;
+      border-left-style: dashed;
+  border-left-width: 1px;
+  border-left-color: black;
+  border-left-dasharray: 30; /* Increase this value for more separation */
+  border-left-gap: 30px; /* Increase this value for more separation */
+  transition: 0.2s;
     }
 
     .image:hover{
@@ -100,7 +105,8 @@
           <span id="highlight_one_text">Times Square, Zaz Screening, 2023</span><br>
            <span id="highlight_two_text">Vanita, 2022, projection on wall, Emily Carr University faculty exhibition</span><br>
            <span id="highlight_three_text">A Walk in the Park, zine, 2023</span><br>
-           <span id="highlight_four_text"><em>Mechanical Artifact, 2024, 3D design,</em> wip</span><br>
+           <span id="highlight_four_text"><em>Mechanical Artifact, 2024, 3D design,</em> wip</span><br><span id="highlight_five_text">Poster, 2024, identity design for Munch and Kirchner lecture</span><br>
+           <span id="highlight_six_text">Type Experiments, 2024, aquatint prints</span><br><span id="highlight_seven_text">A Walk in the Park, 2023, animation</span><br><span id="highlight_eight_text">Split Level Ticket, 2019, carbon paper</span><br><span id="highlight_nine_text">Interactive Drawing Session, 2024, creative coding with Processing </span><br><span id="highlight_ten_text">“Untitled,”  2024, book page 274-275</span><br><span></span>
           the art of jigsaw puzzles seems of little substance, easily exhausted, wholly dealt with by a basic introduction to Gestalt: the perceived object - we may be dealing with a perceptual act, the acquisition of a skill, a physiological system, or, as in the present case, a wooden jigsaw puzzle - is not a sum of elements to be distinguished from each other and analysed discretely, but a pattern, that is to say a form, a structure: the element's existence does not precede the existence of the whole, it comes neither before nor after it, for the parts do not determine the pattern, but the pattern determines the parts: knowledge of the pattern and of its laws, of the set and its structure, could not possibly be derived from discrete knowledge of the elements that compose it. That means that you can look at a piece of a puzzle for three whole days, you can believe that vou know all there is to know about its colouring and shape, and be no further on than when you started. The only thing that counts is the ability to link this piece to other pieces, and in that sense the art of the jigsaw puzzle has something in common with the art of go. The pieces are readable, take on a sense, only when assembled; in isolation, a puzzle piece means nothing - just an impossible question, an opaque challenge. But as soon as you have succeeded, after minutes of trial and error, or after a prodigious half-second flash of inspiration, in fitting it into one of its neigh-bours, the piece disappears, ceases to exist as a piece. The intense difficulty preceding this link-up - which the English word puzzle indicates so well - not only loses its raison d'être, it seems never to have had any reason, so obvious does the solution appear. The two pieces so miraculously conjoined are henceforth one, which in its turn will be a source of error, hesitation, dismay, and expectation.
           o begin with, the art of jigsaw puzzles seems of little substance, easily exhausted, wholly dealt with by a basic introduction to Gestalt: the perceived object - we may be dealing with a perceptual act, the acquisition of a skill, a physiological system, or, as in the present case, a wooden jigsaw puzzle - is not a sum of elements to be distinguished from each other and analysed discretely, but a pattern, that is to say a form, a structure: the element's existence does not precede the existence of the whole, it comes neither before nor after it, for the parts do not determine the pattern, but the pattern determines the parts: knowledge of the pattern and of its laws, of the set and its structure, could not possibly be derived from discrete knowledge of the elements that compose it. That means that you can look at a piece of a puzzle for three whole days, you can believe that vou know all there is to know about its colouring and shape, and be no further on than when you started. The only thing that counts is the ability to link this piece to other pieces, and in that sense the art of the jigsaw puzzle has something in common with the art of go. The pieces are readable, take on a sense, only when assembled; in isolation, a puzzle piece means nothing - just an impossible question, an opaque challenge. But as soon as you have succeeded, after minutes of trial and error, or after a prodigious half-second flash of inspiration, in fitting it into one of its neigh-bours, the piece disappears, ceases to exist as a piece. The intense difficulty preceding this link-up - which the English word puzzle indicates so well - not only loses its raison d'être, it seems never to have had any reason, so obvious does the solution appear. The two pieces so miraculously conjoined are henceforth one, which in its turn will be a source of error, hesitation, dismay, and expectation.
           o begin with, the art of jigsaw puzzles seems of little substance, easily exhausted, wholly dealt with by a basic introduction to Gestalt: the perceived object - we may be dealing with a perceptual act, the acquisition of a skill, a physiological system, or, as in the present case, a wooden jigsaw puzzle - is not a sum of elements to be distinguished from each other and analysed discretely, but a pattern, that is to say a form, a structure: the element's existence does not precede the existence of the whole, it comes neither before nor after it, for the parts do not determine the pattern, but the pattern determines the parts: knowledge of the pattern and of its laws, of the set and its structure, could not possibly be derived from discrete knowledge of the elements that compose it. That means that you can look at a piece of a puzzle for three whole days, you can believe that vou know all there is to know about its colouring and shape, and be no further on than when you started. The only thing that counts is the ability to link this piece to other pieces, and in that sense the art of the jigsaw puzzle has something in common with the art of go. The pieces are readable, take on a sense, only when assembled; in isolation, a puzzle piece means nothing - just an impossible question, an opaque challenge. But as soon as you have succeeded, after minutes of trial and error, or after a prodigious half-second flash of inspiration, in fitting it into one of its neigh-bours, the piece disappears, ceases to exist as a piece. The intense difficulty preceding this link-up - which the English word puzzle indicates so well - not only loses its raison d'être, it seems never to have had any reason, so obvious does the solution appear. The two pieces so miraculously conjoined are henceforth one, which in its turn will be a source of error, hesitation, dismay, and expectation.
@@ -124,22 +130,22 @@
       <img src="IMG_0072.JPG">
     </div>
 
-    <div class="image">
+    <div class="image" id="highlight_five_image">
       <img src="ver 2_00000_00000.webp">
     </div>
-    <div class="image">
+    <div class="image" id="highlight_six_image">
       <img src="Woke.JPG">
     </div>
-    <div class="image">
+    <div class="image" id="highlight_seven_image">
       <img src="walk in the park.webp">
     </div>
-    <div class="image">
+    <div class="image" id="highlight_eight_image">
       <img src="ticket-design.webp">
     </div>
-    <div class="image">
+    <div class="image" id="highlight_nine_image">
       <img src="Screen Shot 2024-04-01 at 10.11.55 PM.webp">
     </div>
-    <div class="image">
+    <div class="image" id="highlight_ten_image">
       <img src="Screen Shot 2024-04-07 at 6.50.10 PM.webp">
     </div>
     <div class="image">
@@ -249,6 +255,14 @@ Pieces in puzzles of this kind come in classes of which the best-known are
   var highlight_one_image = document.getElementById("highlight_one_image");
   var highlight_two_text = document.getElementById("highlight_two_text");
   var highlight_two_image = document.getElementById("highlight_two_image");
+  var highlight_three_text = document.getElementById("highlight_three_text");
+  var highlight_three_image = document.getElementById("highlight_three_image");
+  var highlight_four_text = document.getElementById("highlight_four_text");
+  var highlight_four_image = document.getElementById("highlight_four_image");
+  var highlight_five_text = document.getElementById("highlight_five_text");
+  var highlight_five_image = document.getElementById("highlight_five_image");
+  var highlight_six_text = document.getElementById("highlight_six_text");
+  var highlight_six_image = document.getElementById("highlight_six_image");
 
   highlight_one_image.addEventListener("mouseover", (event) => {
     highlight_one_text.style.backgroundColor = "black";
@@ -268,9 +282,7 @@ Pieces in puzzles of this kind come in classes of which the best-known are
   highlight_two_image.addEventListener("mouseleave", (event) => {
     highlight_two_text.style.backgroundColor = ""; // Reset background color
     highlight_two_text.style.color = ""; // Reset text color
-
-    var highlight_three_text = document.getElementById("highlight_three_text");
-  var highlight_three_image = document.getElementById("highlight_three_image");
+  });
 
   highlight_three_image.addEventListener("mouseover", (event) => {
     highlight_three_text.style.backgroundColor = "black";
@@ -279,10 +291,8 @@ Pieces in puzzles of this kind come in classes of which the best-known are
 
   highlight_three_image.addEventListener("mouseleave", (event) => {
     highlight_three_text.style.backgroundColor = ""; // Reset background color
-    highlight_three_text.style.color = ""; // Reset text 
-
-    var highlight_four_text = document.getElementById("highlight_four_text");
-  var highlight_four_image = document.getElementById("highlight_four_image");
+    highlight_three_text.style.color = ""; // Reset text color
+  });
 
   highlight_four_image.addEventListener("mouseover", (event) => {
     highlight_four_text.style.backgroundColor = "black";
@@ -294,10 +304,99 @@ Pieces in puzzles of this kind come in classes of which the best-known are
     highlight_four_text.style.color = ""; // Reset text color
   });
 
+  highlight_five_image.addEventListener("mouseover", (event) => {
+    highlight_five_text.style.backgroundColor = "black";
+    highlight_five_text.style.color = "white";
   });
 
+  highlight_five_image.addEventListener("mouseleave", (event) => {
+    highlight_five_text.style.backgroundColor = ""; // Reset background color
+    highlight_five_text.style.color = ""; // Reset text color
+  });
+
+  highlight_six_image.addEventListener("mouseover", (event) => {
+    highlight_six_text.style.backgroundColor = "black";
+    highlight_six_text.style.color = "white";
+  });
+
+  highlight_six_image.addEventListener("mouseleave", (event) => {
+    highlight_six_text.style.backgroundColor = ""; // Reset background color
+    highlight_six_text.style.color = ""; // Reset text color
+  });
+   var highlight_seven_text = document.getElementById("highlight_seven_text");
+  var highlight_seven_image = document.getElementById("highlight_seven_image");
+  var highlight_eight_text = document.getElementById("highlight_eight_text");
+  var highlight_eight_image = document.getElementById("highlight_eight_image");
+  var highlight_nine_text = document.getElementById("highlight_nine_text");
+  var highlight_nine_image = document.getElementById("highlight_nine_image");
+  var highlight_ten_text = document.getElementById("highlight_ten_text");
+  var highlight_ten_image = document.getElementById("highlight_ten_image");
+  var highlight_eleven_text = document.getElementById("highlight_eleven_text");
+  var highlight_eleven_image = document.getElementById("highlight_eleven_image");
+  var highlight_twelve_text = document.getElementById("highlight_twelve_text");
+  var highlight_twelve_image = document.getElementById("highlight_twelve_image");
+
+  highlight_seven_image.addEventListener("mouseover", (event) => {
+    highlight_seven_text.style.backgroundColor = "black";
+    highlight_seven_text.style.color = "white";
+  });
+
+  highlight_seven_image.addEventListener("mouseleave", (event) => {
+    highlight_seven_text.style.backgroundColor = ""; // Reset background color
+    highlight_seven_text.style.color = ""; // Reset text color
+  });
+
+  highlight_eight_image.addEventListener("mouseover", (event) => {
+    highlight_eight_text.style.backgroundColor = "black";
+    highlight_eight_text.style.color = "white";
+  });
+
+  highlight_eight_image.addEventListener("mouseleave", (event) => {
+    highlight_eight_text.style.backgroundColor = ""; // Reset background color
+    highlight_eight_text.style.color = ""; // Reset text color
+  });
+
+  highlight_nine_image.addEventListener("mouseover", (event) => {
+    highlight_nine_text.style.backgroundColor = "black";
+    highlight_nine_text.style.color = "white";
+  });
+
+  highlight_nine_image.addEventListener("mouseleave", (event) => {
+    highlight_nine_text.style.backgroundColor = ""; // Reset background color
+    highlight_nine_text.style.color = ""; // Reset text color
+  });
+
+  highlight_ten_image.addEventListener("mouseover", (event) => {
+    highlight_ten_text.style.backgroundColor = "black";
+    highlight_ten_text.style.color = "white";
+  });
+
+  highlight_ten_image.addEventListener("mouseleave", (event) => {
+    highlight_ten_text.style.backgroundColor = ""; // Reset background color
+    highlight_ten_text.style.color = ""; // Reset text color
+  });
+
+  highlight_eleven_image.addEventListener("mouseover", (event) => {
+    highlight_eleven_text.style.backgroundColor = "black";
+    highlight_eleven_text.style.color = "white";
+  });
+
+  highlight_eleven_image.addEventListener("mouseleave", (event) => {
+    highlight_eleven_text.style.backgroundColor = ""; // Reset background color
+    highlight_eleven_text.style.color = ""; // Reset text color
+  });
+
+  highlight_twelve_image.addEventListener("mouseover", (event) => {
+    highlight_twelve_text.style.backgroundColor = "black";
+    highlight_twelve_text.style.color = "white";
+  });
+
+  highlight_twelve_image.addEventListener("mouseleave", (event) => {
+    highlight_twelve_text.style.backgroundColor = ""; // Reset background color
+    highlight_twelve_text.style.color = ""; // Reset text color
   });
 </script>
+
 
 </body>
 </html>

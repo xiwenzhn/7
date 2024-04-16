@@ -29,6 +29,11 @@
       transform: translate(-50%, -50%); */
     }
 
+    @font-face {
+  font-family: "BerettaSansTrial-Bold";
+  src: url("BerettaSansTrial-Bold.otf") format("truetype");
+}
+
     .vertical_text {
       /* flex: 1; */
       width: 100vw;
@@ -67,6 +72,12 @@
   border-left-dasharray: 30; /* Increase this value for more separation */
   border-left-gap: 30px; /* Increase this value for more separation */
   transition: 0.2s;
+  position: relative;
+}
+
+.image-sticky{
+      position: sticky !important;
+      top: 0;
     }
 
     .image:hover{
@@ -75,8 +86,6 @@
 
     .image img{
       width: 100%;
-      position: sticky;
-      top: 0;
     }
      .vertical_text h1 {
       text-align: left;
@@ -117,51 +126,79 @@
     </div>
 
     <div class="image" id="highlight_one_image">
+      <div class="image-sticky">
+
       <img src="1.webp">
-     <span> <img src="thumbnail.webp"></span>
+     <img src="thumbnail.webp">
+      </div>
     </div>
     <div class="image" id="highlight_two_image">
+      <div class="image-sticky">
       <img src="IMG_4843 copy.JPG">
     </div>
+    </div>
     <div class="image" id="highlight_three_image">
+      <div class="image-sticky">
       <img src="img20240112_18013584.webp">
       <img src="img20240112_18031067.webp">
     </div>
+    </div>
     <div class="image" id="highlight_four_image">
+      <div class="image-sticky">
       <img src="IMG_0072.JPG">
     </div>
-
+    </div>
     <div class="image" id="highlight_five_image">
+      <div class="image-sticky">
       <img src="ver 2_00000_00000.webp">
     </div>
+    </div>
     <div class="image" id="highlight_six_image">
+      <div class="image-sticky">
       <img src="Woke.JPG">
       <img src="loanword.jpg">
       <img src="Screen Shot 2024-04-07 at 6.47.51 PM.PNG">
     </div>
+    </div>
     <div class="image" id="highlight_seven_image">
+      <div class="image-sticky">
       <img src="walk in the park.webp">
     </div>
+    </div>
     <div class="image" id="highlight_eight_image">
+      <div class="image-sticky">
       <img src="ticket-design.webp">
     </div>
+    </div>
     <div class="image" id="highlight_nine_image">
+      <div class="image-sticky">
       <img src="Screen Shot 2024-04-01 at 10.11.55 PM.webp">
     </div>
+    </div>
     <div class="image" id="highlight_ten_image">
+      <div class="image-sticky">
       <img src="Screen Shot 2024-04-07 at 6.50.10 PM.webp">
     </div>
+    </div>
     <div class="image" id="highlight_eleven_image">
+      <div class="image-sticky">
       <img src="Screen Shot 2024-04-12 at 4.00.19 PM.PNG">
     </div>
+    </div>
     <div class="image" id="highlight_twelve_image">
+      <div class="image-sticky">
       <img src="2.jpg">
     </div>
+    </div>
     <div class="image" id="highlight_thirteen_image">
+      <div class="image-sticky">
       <img src="Free-Radicles.JPG">
     </div>
+    </div>
     <div class="image">
+      <div class="image-sticky">
       <img src="Resume_Xiwen Zhang_2023-24.JPG">
+    </div>
     </div>
   </div>
 
